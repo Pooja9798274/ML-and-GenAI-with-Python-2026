@@ -13,6 +13,11 @@ print("Simple Interest:",simple_interest)
 print("Total amount payable:",total_amount)
 
 
+c= int(input("Enter the temperature in celcius:"))
+f= (c*9/5)+32
+print("Temperature in fahrenheit:",f)
+
+
 a=int(input("Enter the val of a:"))
 b=int(input("Enter the val of b:"))
 c=int(input("Enter the val of c:"))
@@ -24,6 +29,14 @@ sqr = n**2
 cube = n**3
 print("Square:",sqr)
 print("Cube:",cube)
+
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+a=a+b
+b=a-b
+a=a-b
+print("After swapping:",a)
+print("After swapping:",b)
 
 name = input("Enter the name:")
 age = int(input("Enter the age:"))
